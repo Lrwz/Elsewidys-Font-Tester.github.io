@@ -1,0 +1,170 @@
+@font-face {
+  font-family: Operator Mono;
+  src: url(Fonts/OperatorMono.ttf);
+}
+body {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, #000000 50%, #d7458d 100%);
+  font-family: Operator Mono;
+}
+.Header-Div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Header {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: Operator Mono;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 200px;
+  font-size: 70px;
+  border-width: 2px;
+  color: #fff;
+  border-color: #9013fe;
+  font-weight: bold;
+  border-radius: 17px;
+  box-shadow: 1px 1px 50px -1px #9013fe;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+  background: linear-gradient(#bd10e0, #4a90e2);
+  transition: all .5s;
+}
+
+.Header:hover {
+  font-size: 80px;
+  border-radius: 23px;
+  background: linear-gradient(#4a90e2, #bd10e0);
+}
+.Header-Creator {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: Operator Mono;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 59px;
+  font-size: 20px;
+  border-width: 2px;
+  color: #fff;
+  border-color: #9013fe;
+  font-weight: bold;
+  border-radius: 17px;
+  box-shadow: 1px 1px 50px -1px #9013fe;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+  background: linear-gradient(#bd10e0, #4a90e2);
+  transition: all .5s;
+}
+
+.Header-Creator:hover {
+  width: 300px;
+  font-size: 30px;
+  border-radius: 23px;
+  background: linear-gradient(#4a90e2, #bd10e0);
+}
+input[type="file"] {
+  display: none;
+}
+.TestFont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Upload-Button {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: Operator Mono;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 156px;
+  height: 59px;
+  font-size: 20px;
+  border-width: 2px;
+  color: #ffffff;
+  border-color: #9013fe;
+  font-weight: bold;
+  border-radius: 17px;
+  box-shadow: 1px 1px 50px -1px #9013fe;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+  background: linear-gradient(#bd10e0, #4a90e2);
+  transition: all .5s;
+}
+
+.Upload-Button:hover {
+  font-size: 30px;
+  border-radius: 23px;
+  width: 166px;
+  height: 69px;
+  background: linear-gradient(#4a90e2, #bd10e0);
+}
+
+textArea {
+  width: 500px;
+  height: 300px;
+  padding: 13px;
+  font-family: Operator Mono;
+  font-size: 22px;
+  background-color: #ffffff;
+  color: #4a90e2;
+  background: linear-gradient(white, white) padding-box,
+  linear-gradient(to bottom, #4a90e2, #bd10e0) border-box;
+  border-radius: 10px;
+  border: 4px solid transparent;
+  box-shadow: 0px 0px 23px #bd10e0;
+  transition: all 0.5s;
+}
+textArea:hover {
+  color: #bd10e0;
+  background-color: #ffffff;
+  font-size: 30px;
+  border-radius: 20px;
+}
+.GitHub-Button {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: Operator Mono;
+  text-align: center;
+  width: 200px;
+  height: 79px;
+  border-width: 2px;
+  color: #ffffff;
+  border-color: #9013fe;
+  font-weight: bold;
+  border-radius: 17px;
+  box-shadow: 1px 1px 50px -1px #9013fe;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+  background: linear-gradient(#bd10e0, #4a90e2);
+  transition: all .5s;
+}
+
+.GitHub-Button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.GitHub-Button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.GitHub-Button:hover span {
+  padding-right: 25px;
+}
+
+.GitHub-Button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
