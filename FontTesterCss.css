@@ -14,14 +14,14 @@ body {
   align-items: center;
 }
 .Header {
-  font-size: 20px;
+  font-size: 1.042vw;
   margin-bottom: 20px;
   font-family: Operator Mono;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 600px;
-  height: 200px;
+  width: 31.25vw;
+  height: 10.417vw;
   font-size: 70px;
   border-width: 2px;
   color: #fff;
