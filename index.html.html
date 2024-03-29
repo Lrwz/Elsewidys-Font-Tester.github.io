@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Font Tester</title>
+    <link rel="stylesheet" href="FontTesterCss.css" />
+    <script src="FontTesterJava.js"></script>
+  </head>
+  <body>
+    <div class="Header-Div">
+      <button class="Header">Font Tester</button>
+      <button class="Header-Creator">By Omar Elsewidy</button>
+    </div>
+    <div class="TestFont">
+      <label for="Upload" class="Upload-Button">Upload</label>
+      <input
+        id="Upload"
+        type="file"
+        accept=".ttf,.otf"
+        onchange="loadFont(event)"
+      />
+      <textarea id="textArea" placeholder="Type here..."></textarea>
+    </div>
+    <button class="GitHub-Button"><span>Git Hub</span></button>
+  </body>
+</html>
