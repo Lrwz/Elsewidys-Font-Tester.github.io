@@ -380,6 +380,9 @@ textArea:hover {
     width: 280px;
     height: 260px;
   }
+  .NOT-DONE {
+  font-size: 50px;
+ }
 }
 .site-footer {
   background: linear-gradient(#ffc400, #ffa200);
