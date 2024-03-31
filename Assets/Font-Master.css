@@ -8,7 +8,7 @@ body,
 html {
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 100;
+  max-width: 100%;
 }
 .menu-logo {
   line-height: 0;
