@@ -127,7 +127,8 @@ body {
     background: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(50px);
     box-shadow: 0 5px 20px -3px #000000;
-    border-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
     overflow: hidden;
     transition: 0.3s ease;
   }
